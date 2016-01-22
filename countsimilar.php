@@ -53,7 +53,7 @@ class plgKunenaCountsimilar extends JPlugin
 					
 				}
 
-				$bts->def('countmesmoproblema', '<small><span class="countnum">'.$count.'<span>'.JText::_('PLG_KUNENA_COUNTSIMILAR_COUNTMESMOPROBLEMA').'</small>');	
+				$bts->def('countmesmoproblema', '<small class="similar-smallinfo"><span class="countnum">'.$count.'</span>'.JText::_('PLG_KUNENA_COUNTSIMILAR_COUNTMESMOPROBLEMA').'</small>');	
 				
 				
 			}
