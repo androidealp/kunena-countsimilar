@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension version="3.4" type="plugin" group="kunena" method="upgrade">
+	<name>Kunena - Countsimilar</name>
+	<version>1.0</version>
+	<creationDate>2016-01-19</creationDate>
+	<author>André Luiz</author>
+	<authorEmail>andre@next4.com.br</authorEmail>
+	<authorUrl>http://www.next4.com.br</authorUrl>
+	<copyright>www.next4.com.br</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>PLG_KUNENA_COUNTSIMILAR_DESCRIPTION</description>
+	<files>
+		<filename plugin="countsimilar">countsimilar.php</filename>
+		<folder>language</folder>
+		<folder>sql</folder>
+	</files>
+	<install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/countsimilar.install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/countsimilar.uninstall.sql</file>
+        </sql>
+    </uninstall>
+	<languages folder="language">
+        <language tag="pt-BR">pt-BR/pt-BR.plg_kunena_countsimilar.sys.ini</language>
+    </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>

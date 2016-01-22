@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `#__kunena_sameproblem` ( `id` bigint not null AUTO_INCREMENT, `topic_id` int not null, `userid` int not null, primary key(`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
