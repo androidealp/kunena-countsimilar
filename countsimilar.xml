@@ -12,8 +12,10 @@
 	<description>PLG_KUNENA_COUNTSIMILAR_DESCRIPTION</description>
 	<files>
 		<filename plugin="countsimilar">countsimilar.php</filename>
+		<filename>index.html</filename>
 		<folder>language</folder>
 		<folder>sql</folder>
+
 	</files>
 	<install>
         <sql>
