@@ -3,11 +3,10 @@ Gera um botão no fórum do Kunena na parte de post, que contabiliza a quantidad
 
 ### Versão 
 ![status](https://api.travis-ci.org/androidealp/kunema-countsimilar.svg?branch=master)
-
-### Downloads
-
-
 kunema-countsimilar 1.0 estável 
+
+### Download
+[Download direto da versão estável](https://github.com/androidealp/kunema-countsimilar/blob/master/countsimilar.zip?raw=true)
 
 ### Configurações
 
