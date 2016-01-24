@@ -15,7 +15,6 @@
 		<filename>index.html</filename>
 		<folder>language</folder>
 		<folder>sql</folder>
-
 	</files>
 	<install>
         <sql>
