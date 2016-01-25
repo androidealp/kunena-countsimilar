@@ -1,8 +1,9 @@
-# kunema-countsimilar
+# kunena-countsimilar
 Gera um botão no fórum do Kunena na parte de post, que contabiliza a quantidade de usuários com problemas similares ao post
 
 ### Versão 
-![status](https://api.travis-ci.org/androidealp/kunema-countsimilar.svg?branch=master)
+![status](https://api.travis-ci.org/androidealp/kunena-countsimilar.svg?branch=master)
+
 kunema-countsimilar 1.0 estável 
 
 ### Download
