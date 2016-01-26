@@ -11,8 +11,6 @@ kunema-countsimilar 1.0 estável
 
 ### Configurações
 
-Você pode baixar também através do link [www.next4.com.br/blog](http://www.next4.com.br/blog/) 
-
 É necessário modificar o layout de template em com_kunena/template/custom_template/html/topic/default_actions.php
 
 Após isso inserir ou estilizar
