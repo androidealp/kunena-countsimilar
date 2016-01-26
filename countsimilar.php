@@ -26,8 +26,12 @@ class plgKunenaCountsimilar extends JPlugin
 	}
 
 	/**
-	* pega o trigger para topic.action
-	*/
+	 * detect and dispach event button
+	 * @param  string $scenario scenario type
+	 * @param  object $bts      object buttons
+	 * @param  object $obj      get objects defaults the class
+	 * @return vold           create new object buttom
+	 */
 	public function onKunenaGetButtons($scenario, $bts, $obj) //'topic.action', $this->topicButtons, $this
 	{
 
@@ -41,7 +45,7 @@ class plgKunenaCountsimilar extends JPlugin
 					$list = $countsames['list'];
 				}
 
-				//SE o usuário estiver logado
+				//detect user
 				if($obj->me->userid){
 
 					$userinlist = $this->checkUser($obj->me->userid, $list);
@@ -95,7 +99,10 @@ class plgKunenaCountsimilar extends JPlugin
 		return $return;
 	}
 
-
+	/**
+	 * simulate ajax click
+	 * @return string return ajax notification
+	 */
 	public function onKunenaBeforeRender()
 	{
 		$app = JFactory::getApplication();
@@ -174,7 +181,7 @@ HTML;
 	}
 
 	/**
-	 * prepara os dados para salvar no banco
+	 * set database clicks
 	 * @param  int $userid id do usuário
 	 * @param  mixer $list   lista de usuários que marcou, ou false
 	 * @param  int $idPost id do topco
@@ -207,7 +214,7 @@ HTML;
 
 
 	/**
-	 * Cria uma row na tabela
+	 * create new click
 	 * @param  int $idPost Id do topico
 	 * @param  int $userid Id do usuário
 	 * @return [string]         Retorna que foi salvo com sucesso

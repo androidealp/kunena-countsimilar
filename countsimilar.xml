@@ -2,7 +2,7 @@
 <!DOCTYPE extension>
 <extension version="3.4" type="plugin" group="kunena" method="upgrade">
 	<name>Kunena - Countsimilar</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<creationDate>2016-01-19</creationDate>
 	<author>André Luiz</author>
 	<authorEmail>andre@next4.com.br</authorEmail>
@@ -15,7 +15,11 @@
 		<filename>index.html</filename>
 		<folder>language</folder>
 		<folder>sql</folder>
+		<folder>prints</folder>
 	</files>
+	<media folder="media" destination="countsimilar">
+        <folder>prints</folder>
+    </media>
 	<install>
         <sql>
             <file driver="mysql" charset="utf8">sql/countsimilar.install.sql</file>
@@ -28,6 +32,7 @@
     </uninstall>
 	<languages folder="language">
         <language tag="pt-BR">pt-BR/pt-BR.plg_kunena_countsimilar.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_kunena_countsimilar.sys.ini</language>
     </languages>
 	<config>
 		<fields name="params">

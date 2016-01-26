@@ -1,32 +1,48 @@
 # kunena-countsimilar
-Gera um botão no fórum do Kunena na parte de post, que contabiliza a quantidade de usuários com problemas similares ao post
+Generate a button on the Kunena forum at the post, which counts the number of users with similar problems to post.
 
-### Versão 
+### Version 
 ![status](https://api.travis-ci.org/androidealp/kunena-countsimilar.svg?branch=master)
 
-kunema-countsimilar 1.0 estável 
+kunema-countsimilar 1.1 Stable 
 
 ### Download
-[Download direto da versão estável](https://github.com/androidealp/kunema-countsimilar/blob/master/countsimilar.zip?raw=true)
+[Direct download](https://github.com/androidealp/kunema-countsimilar/blob/master/countsimilar.zip?raw=true)
 
-### Configurações
+### Configuration
 
-É necessário modificar o layout de template em com_kunena/template/custom_template/html/topic/default_actions.php
+You must modify the template layout in com_kunena/template/custom_template/html/topic/default_actions.php
 
-Após isso inserir ou estilizar
+After that insert or update
 
 ```php
 echo $this->topicButtons->get('mesmoproblema').' '.$this->topicButtons->get('countmesmoproblema');
 ```
 
-### Atenção:
+### Attention:
 
-O plugin precisa do jquery para rodar corretamente, não foi inserido para evitar problemas de incompatibilidade no sistema, caso não tenha o jquery rodando no frontend o botão não irá funcionar.
+The plugin needs jquery to run properly, it is not inserted to prevent incompatibility problems in the system, if you have not jquery running on the frontend the button will not function.
 
 ### Tabela
 
-O plugin utiliza sua própria tabela para gerenciamento dos counts #__kunena_sameproblem.
+The plugin uses its own table for managing tales #__kunena_sameproblem.
 
-### Testes
+### Examples
 
-Foram feitos testes no Joomla 3.4.x e no Kunena versão 4.0.7
+* Insert code in com_kunena/template/custom_template/html/topic/default_actions.php
+
+![Example 1](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple1.jpg "Example 1")
+
+* login to user forum and open post
+
+![Example 2](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple2.jpg "Example 2")
+
+* Effect after click
+
+![Example 3](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple3.jpg "Example 3")
+
+### Tests
+
+Tests were run in Joomla 3.4.x and Kunena versão 4.0.7 / 4.0.9
+
+
