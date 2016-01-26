@@ -6,3 +6,5 @@ php:
 env:
   - DB=mysql
 script: phpunit countsimilar.php
+notifications:
+  email: false
