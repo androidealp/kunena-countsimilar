@@ -4,10 +4,10 @@ Generate a button on the Kunena forum at the post, which counts the number of us
 ### Version 
 ![status](https://api.travis-ci.org/androidealp/kunena-countsimilar.svg?branch=master)
 
-kunema-countsimilar 1.1 Stable 
+kunena-countsimilar 1.1 Stable 
 
 ### Download
-[Direct download](https://github.com/androidealp/kunema-countsimilar/blob/master/countsimilar.zip?raw=true)
+[Direct download](https://github.com/androidealp/kunena-countsimilar/blob/master/countsimilar.zip?raw=true)
 
 ### Configuration
 
@@ -31,15 +31,18 @@ The plugin uses its own table for managing tales #__kunena_sameproblem.
 
 * Insert code in com_kunena/template/custom_template/html/topic/default_actions.php
 
-![Example 1](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple1.jpg "Example 1")
+![Example 1](https://github.com/androidealp/kunena
+kunena-countsimilar/blob/master/prints/exemple1.jpg "Example 1")
 
 * login to user forum and open post
 
-![Example 2](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple2.jpg "Example 2")
+![Example 2](https://github.com/androidealp/kunena
+kunena-countsimilar/blob/master/prints/exemple2.jpg "Example 2")
 
 * Effect after click
 
-![Example 3](https://github.com/androidealp/kunema-countsimilar/blob/master/prints/exemple3.jpg "Example 3")
+![Example 3](https://github.com/androidealp/kunena
+kunena-countsimilar/blob/master/prints/exemple3.jpg "Example 3")
 
 ### Tests
 
